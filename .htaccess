@@ -2,6 +2,8 @@ Options +FollowSymLinks -MultiViews -Indexes
 
 RewriteEngine On
 
+DirectoryIndex index.html
+
 RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
